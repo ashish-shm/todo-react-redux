@@ -7,9 +7,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="text-centre">
+        <div className="centre">
           <AddTodo />
-
           <TodoList />
           <Footer />
         </div>
